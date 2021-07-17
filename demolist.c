@@ -50,6 +50,4 @@ void __exit listdemo_exit(void) {       //cleanup_module
 
 module_init(listdemo_init);
 module_exit(listdemo_exit);
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Rajesh Sola");
-MODULE_DESCRIPTION("A Hello, World Module");
+
